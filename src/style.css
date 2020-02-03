@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: aliceblue;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.input-container {
+  margin-bottom: 30px;
+}
+.input {
+  padding: 10px 30px;
+}
+.add {
+  padding: 10px 15px;
+  border: 2px solid transparent;
+  background: cornflowerblue;
+  margin-left: 10px;
+  color: white;
+}
+.inside {
+  display: flex;
+  flex-direction: column;
+}
+
+.uli {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.list {
+  position: relative;
+  list-style: none;
+  padding: 12px;
+  border: 1px solid transparent;
+  background-color: #d3e3ff;
+  font-size: 17px;
+  margin: 10px 0;
+}
+.list button {
+  position: absolute;
+  padding: 5px 10px;
+  border: 1px transparent;
+  background: honeydew;
+}
+
+.done {
+  right: 40px;
+  color: green;
+}
+
+.del {
+  right: 5px;
+  color: red;
+}
